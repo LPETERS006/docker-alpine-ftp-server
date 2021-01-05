@@ -2,7 +2,7 @@ version: '3'
 
 services:
   ftp:
-    image: LPETERS006/docker-alpine-ftp-server
+    image: lpeters999/docker-alpine-ftp-server
     container_name: ftp
     restart: unless-stopped
     environment:
